@@ -1,9 +1,9 @@
-# Course Syllabus: HPC for Simulation Science
+# HPC for Simulation Science
 
-## Content and Format
+## Syllabus
 
-* The content of this course can be found in structured form as a mind-map ([link](https://hmarschall.github.io/flippedClassRoom-HPCSimulationScience/Lessons/CourseContent.html)).
-* The course chapters and sections are
+* The syllabus of this course can be found in structured form as a mind-map ([link](https://hmarschall.github.io/flippedClassRoom-HPCSimulationScience/Lessons/CourseContent.html)).
+* The following sets out briefly the course chapters and sections:
 
 1. Hardware
     1. Anatomy of a Supercomputer
