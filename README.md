@@ -2,7 +2,7 @@
 
 ## Content and Format
 
-* The content of the course *HPC for Simulation Science* can be found in structured form as a mind-map ([link](https://hmarschall.github.io/flippedClassRoom-HPCSimulationScience/Lessons/CourseStructure.html)).
+* The content of the course *HPC for Simulation Science* can be found in structured form as a mind-map ([link](https://hmarschall.github.io/flippedClassRoom-HPCSimulationScience/Lessons/CourseContent.html)).
 * The format of this course is a flipped classroom. The concept is described on the next.
 
 ## Concept: Flipped Classroom
