@@ -2,8 +2,8 @@
 
 ## Content and Format
 
-* The content of the course *HPC for Simulation Science* can be found in structured form as a mind-map ([link](https://hmarschall.github.io/flippedClassRoom-HPCSimulationScience/Lessons/CourseContent.html)).
-* The course chapter and sections are
+* The content of this course can be found in structured form as a mind-map ([link](https://hmarschall.github.io/flippedClassRoom-HPCSimulationScience/Lessons/CourseContent.html)).
+* The course chapters and sections are
 
 1. Hardware
     1. Anatomy of a Supercomputer
@@ -22,7 +22,7 @@
 ## Concept: Flipped Classroom
 
 * This course follows the flipped classroom concept.
-* The concept is set out in the course introductory slides ([link](https://hmarschall.github.io/flippedClassRoom-HPCSimulationScience/Lessons/CourseSyllabus.html)).
+* This concept is set out in the course introductory slides ([link](https://hmarschall.github.io/flippedClassRoom-HPCSimulationScience/Lessons/CourseSyllabus.html)).
 
 
 ## Lectures
