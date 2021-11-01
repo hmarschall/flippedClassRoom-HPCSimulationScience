@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="libs/reveal.js/3.8.0/css/theme/black.css" id="theme">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.1.5/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@6.6.0"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.2.3"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.1.5/dist/index.umd.min.js"></script><script>(r => {
+                setTimeout(r);
+              })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const toolbar = new markmap.Toolbar();
+  toolbar.attach(mm);
+  const el = toolbar.render();
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, data) => {
+        const {
+          Markmap
+        } = getMarkmap();
+        window.mm = Markmap.create('svg#mindmap', getOptions == null ? void 0 : getOptions(), data);
+      })(() => window.markmap,null,{"t":"heading","d":1,"p":{"lines":[0,1]},"v":"HPC for Simulation Science","c":[{"t":"list_item","d":3,"p":{"lines":[1,2]},"v":"Hardware","c":[{"t":"list_item","d":5,"p":{"lines":[2,3]},"v":"Anatomy of a Supercomputer","c":[{"t":"list_item","d":7,"p":{"lines":[3,4]},"v":"Core/Central Processing Unit"},{"t":"list_item","d":7,"p":{"lines":[4,5]},"v":"Socket/Chip"},{"t":"list_item","d":7,"p":{"lines":[5,6]},"v":"Accelerators/GPUs"},{"t":"list_item","d":7,"p":{"lines":[6,7]},"v":"Node"},{"t":"list_item","d":7,"p":{"lines":[7,8]},"v":"Cluster/Supercomputer"}]},{"t":"list_item","d":5,"p":{"lines":[8,9]},"v":"Taxonomy of a Supercomputer (Flynn 1972)","c":[{"t":"list_item","d":7,"p":{"lines":[9,10]},"v":"SISD: single instruction, single data"},{"t":"list_item","d":7,"p":{"lines":[10,11]},"v":"SIMD: single instruction, multiple data (vector computer)"},{"t":"list_item","d":7,"p":{"lines":[11,12]},"v":"MISD: multiple instruction, single data (pipelining)"},{"t":"list_item","d":7,"p":{"lines":[12,13]},"v":"MIMD: multiple instruction, multiple data (parallel computer)"}]},{"t":"list_item","d":5,"p":{"lines":[13,14]},"v":"Memory Distribution","c":[{"t":"list_item","d":7,"p":{"lines":[14,15]},"v":"Shared Memory"},{"t":"list_item","d":7,"p":{"lines":[15,16]},"v":"Distributed Memory"},{"t":"list_item","d":7,"p":{"lines":[16,17]},"v":"Shared Non-Uniform Memory Access"}]}]},{"t":"list_item","d":3,"p":{"lines":[17,18]},"v":"Software","c":[{"t":"list_item","d":5,"p":{"lines":[18,19]},"v":"Parallel Programming Models","c":[{"t":"list_item","d":7,"p":{"lines":[19,20]},"v":"Shared vs. Distributed (hardware-oriented)"},{"t":"list_item","d":7,"p":{"lines":[20,21]},"v":"Explicit vs. Implicit (language-oriented)"},{"t":"list_item","d":7,"p":{"lines":[21,22]},"v":"Data vs. Functional (operator/structure-oriented)"}]},{"t":"list_item","d":5,"p":{"lines":[22,23]},"v":"Examples","c":[{"t":"list_item","d":7,"p":{"lines":[23,24]},"v":"Parallelization of CFD Simulations"},{"t":"list_item","d":7,"p":{"lines":[24,25]},"v":"..."}]},{"t":"list_item","d":5,"p":{"lines":[25,26]},"v":"Rationale and Design Principles","c":[{"t":"list_item","d":7,"p":{"lines":[26,27]},"v":"The PCAM Design Methodology","c":[{"t":"list_item","d":9,"p":{"lines":[27,28]},"v":"(P) Partitioning"},{"t":"list_item","d":9,"p":{"lines":[28,29]},"v":"(C) Communication"},{"t":"list_item","d":9,"p":{"lines":[29,30]},"v":"(A) Agglomeration"},{"t":"list_item","d":9,"p":{"lines":[30,31]},"v":"(M) Mapping"}]},{"t":"list_item","d":7,"p":{"lines":[31,32]},"v":"The Four Fundamental Requirements:","c":[{"t":"list_item","d":9,"p":{"lines":[32,33]},"v":"modularity"},{"t":"list_item","d":9,"p":{"lines":[33,34]},"v":"concurrency"},{"t":"list_item","d":9,"p":{"lines":[34,35]},"v":"scalability"},{"t":"list_item","d":9,"p":{"lines":[35,36]},"v":"locality"}]}]}]},{"t":"list_item","d":3,"p":{"lines":[36,37]},"v":"Performance","c":[{"t":"list_item","d":5,"p":{"lines":[37,38]},"v":"Performance Metrics and Scalability"},{"t":"list_item","d":5,"p":{"lines":[38,39]},"v":"Performance Models"},{"t":"list_item","d":5,"p":{"lines":[39,40]},"v":"Performance Analysis (Tools)"}]},{"t":"list_item","d":3,"p":{"lines":[40,41]},"v":"Aspects of Software Design","c":[{"t":"list_item","d":5,"p":{"lines":[41,42]},"v":"Object-oriented paradigm"},{"t":"list_item","d":5,"p":{"lines":[42,43]},"v":"Data-oriented paradigm"}]}]})</script>
+</body>
+</html>
