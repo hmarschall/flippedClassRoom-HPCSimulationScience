@@ -3,7 +3,21 @@
 ## Content and Format
 
 * The content of the course *HPC for Simulation Science* can be found in structured form as a mind-map ([link](https://hmarschall.github.io/flippedClassRoom-HPCSimulationScience/Lessons/CourseContent.html)).
-* The format of this course is a flipped classroom. The concept is described on the next.
+* The course chapter and sections are
+
+1. Hardware
+    1. Anatomy of a Supercomputer
+    2. Taxonomy of a Supercomputer (Flynn 1972)
+    3. Memory Distribution
+2. Software
+    1. Parallel Programming Models
+    2. Examples
+    3. Rationale and Design Principles
+3. Performance
+    1. Performance Metrics and Scalability
+    2. Performance Models
+    3. Performance Analysis (Tools)
+
 
 ## Concept: Flipped Classroom
 
