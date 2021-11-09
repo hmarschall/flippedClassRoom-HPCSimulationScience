@@ -28,7 +28,7 @@ The exercises are designed for native Linux operating systems like Ubuntu (recom
 
 | # | topic | notebook |
 |--:|:------|:---------|
-| 2.2 | Parallel CFD | [view online](...) |
+| 2.2 | Parallel CFD Simulation | [view online](https://github.com/hmarschall/flippedClassRoom-HPCSimulationScience/blob/main/Assigments/2.2_testParallelComm-OpenFOAM.ipynb) |
 
 ## Literature
 
