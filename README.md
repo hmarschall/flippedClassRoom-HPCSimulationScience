@@ -15,7 +15,7 @@ The syllabus of this course can be found in structured form as a mind-map ([link
 
 | # | topic | slides | recording | worksheet |
 |--:|:------|:------:|:---------:|:----------|
-| 2.2 | Parallel CFD Simulation | [link](...) | [view online](https://hmarschall.github.io/flippedClassRoom-HPCSimulationScience/Lessons/2.2_parallelCFD/2.2_parallelCFD.html) | [worksheet #1](...) |
+| 2.2 | Parallel CFD Simulation | [link](...) | [view online](https://hmarschall.github.io/flippedClassRoom-HPCSimulationScience/Lessons/2.2_parallelCFD/2.2_parallelCFD.html) | [worksheet #1](https://hmarschall.github.io/flippedClassRoom-HPCSimulationScience/Worksheets/2.2_ParallelCFD_Worksheet.pdf) |
 
 
 ## Exercises
