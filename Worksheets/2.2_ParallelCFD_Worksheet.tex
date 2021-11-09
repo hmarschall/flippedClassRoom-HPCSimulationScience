@@ -1,0 +1,69 @@
+\documentclass{article}
+
+\usepackage[margin=2cm]{geometry}
+\usepackage[most]{tcolorbox}
+
+\newtcolorbox{smalltextbox}[1][]{%
+  sharp corners,
+  enhanced,
+  colback=white,
+  height=4cm,
+  attach title to upper,
+  #1
+}
+
+\newtcolorbox{largetextbox}[1][]{%
+  sharp corners,
+  enhanced,
+  colback=white,
+  height=8cm,
+  attach title to upper,
+  #1
+}
+
+\begin{document}
+
+\section*{2.2. Parallel CFD Simulations -- Worksheet}
+
+\begin{smalltextbox}[fontupper=\bfseries\large]
+
+What are the categories to distinguish parallel programming models?
+
+\end{smalltextbox}
+
+
+\begin{smalltextbox}[fontupper=\bfseries\large]%[colupper=blue,fontupper=\bfseries\large]
+
+What parallel programming model is typically used for CFD and why?
+
+\end{smalltextbox}
+
+
+\begin{smalltextbox}[fontupper=\bfseries\large]
+
+Which main incredients need to be devised for parallel CFD?
+
+\end{smalltextbox}
+
+
+\begin{largetextbox}[fontupper=\bfseries\large]
+
+What parallel communication pattern results from the finite volume matrix assembly? Exemplify for the advection term.
+
+\end{largetextbox}
+
+\pagebreak[4]
+
+\begin{smalltextbox}[fontupper=\bfseries\large]
+
+List the de-facto standard library deployed in parallel CFD. Are there alternatives?
+
+\end{smalltextbox}
+
+\begin{largetextbox}[fontupper=\bfseries\large]
+
+Your questions:
+
+\end{largetextbox}
+
+\end{document}
